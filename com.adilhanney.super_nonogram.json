@@ -52,7 +52,7 @@
 				},
 				{
 					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.5.0/flatpak/com.adilhanney.super_nonogram.desktop",
+					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/flatpak/com.adilhanney.super_nonogram.desktop",
 					"sha256": "7c3dbbcfd3c37e25ab5502831a45854e661b85ca51086643846e6c9e9aba8b44"
 				},
 				{
@@ -61,43 +61,43 @@
 				},
 				{
 					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.5.0/assets/icon/resized/icon-16x16.png",
-					"sha256": "2f01dcb8071da71b7bde3faf4348b61da22e14391febada98f7118d8d6dd1485"
+					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-16x16.png",
+					"sha256": "64c7dfb4cb2421fc215b15b2eacc3a2c97a229e333b83f5d7fc9f9ec4166989c"
 				},
 				{
 					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.5.0/assets/icon/resized/icon-24x24.png",
-					"sha256": "58db689b6d98b9a244b40edb402239f5a7ca519f315adabf4519b7a16ff50ca6"
+					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-24x24.png",
+					"sha256": "502e9b6f385f25e56af1fef2df690f0376e960d91b6670e59ff926cd337c25fb"
 				},
 				{
 					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.5.0/assets/icon/resized/icon-32x32.png",
-					"sha256": "72498a4c9cdecf899f08b9d088c5c15e5e5f9e29393616fe5af3f6822ae43070"
+					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-32x32.png",
+					"sha256": "30820b89a218f7014b3c9c414920b12fdf2cb58e22e687bdd36fdf992a0a18d6"
 				},
 				{
 					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.5.0/assets/icon/resized/icon-48x48.png",
-					"sha256": "4e6276076fba67e8bb0ebcc4b82aff5b8dd20325715b822719e2b9ef3cdf8eb2"
+					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-48x48.png",
+					"sha256": "4eb2e3b8641db5c4aae7ce56185448c6b3f4ffc811ca9f47fd2827e4e68f5d65"
 				},
 				{
 					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.5.0/assets/icon/resized/icon-64x64.png",
-					"sha256": "c26d418425dcfb7b1663412eb79068e9e254a828e3b7c131ed56ce1660cb090b"
+					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-64x64.png",
+					"sha256": "95085df2c7f0a69d00b630564031df06cb701bb9a41bebce3ffa943bf5c66fe6"
 				},
 				{
 					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.5.0/assets/icon/resized/icon-128x128.png",
-					"sha256": "ce24d05fb765a6cea38fc229cc29e07b5c90014c1abe9c7745626f603bd36623"
+					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-128x128.png",
+					"sha256": "a5dff02c21025367f244d052fcbdcb89178c088c31fe654118bb0788a0afa577"
 				},
 				{
 					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.5.0/assets/icon/resized/icon-256x256.png",
-					"sha256": "f698042dff7f6ca8d1b8ff9f3757bb6c7d52ff6c55009ce736bd81f91aa36289"
+					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-256x256.png",
+					"sha256": "cb838dd1b47e19cf380f39a62ebba64263a6ae338eee34c405541124ca1a84fb"
 				},
 				{
 					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.5.0/assets/icon/resized/icon-512x512.png",
-					"sha256": "757d64beeb0023fd490cc84ac352d8c26cd8a1ed2a45665b6939fb0671437e38"
+					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-512x512.png",
+					"sha256": "58e84626d5fd126ff7546ea32e72e87aca86bf6b053b6fb3a36adeca805f9e16"
 				}
 			]
 		}
