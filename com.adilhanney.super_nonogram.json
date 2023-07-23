@@ -48,7 +48,7 @@
 			"sources": [
 				{
 					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.3/flatpak/com.adilhanney.super_nonogram.metainfo.xml", "sha256": "9b8343aecddcb7b5a80602d5bdc8d92452b06276483e02353a546d7352093674"
+					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.4/flatpak/com.adilhanney.super_nonogram.metainfo.xml", "sha256": "9e2472c649a3b9bedc31c9331d71af8f7c392e6b84615b1b8e6c8d2fc117b193"
 				},
 				{
 					"type": "file",
@@ -57,7 +57,7 @@
 				},
 				{
 					"type": "file",
-					"url": "https://github.com/adil192/super_nonogram/releases/download/v0.7.3/SuperNonogram_v0.7.3.tar.gz", "sha256": "3221afbcc8f7f455ac4ea4db028c4e208b5d09d2b7b6d9f993277a91876d82d6"
+					"url": "https://github.com/adil192/super_nonogram/releases/download/v0.7.4/SuperNonogram_v0.7.4.tar.gz", "sha256": "55af57c0661650893c6c6abd96c201897f5e33c64e3be162c1ab31b597e0cb1f"
 				},
 				{
 					"type": "file",
