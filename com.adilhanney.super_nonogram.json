@@ -1,104 +1,60 @@
 {
-	"app-id": "com.adilhanney.super_nonogram",
-	"runtime": "org.freedesktop.Platform",
-	"runtime-version": "22.08",
-	"sdk": "org.freedesktop.Sdk",
-	"command": "super_nonogram",
-	"separate-locales": false,
-	"finish-args": [
-		"--share=network",
-		"--share=ipc",
-		"--socket=fallback-x11",
-		"--socket=wayland",
-		"--device=dri",
-		"--socket=pulseaudio"
-	],
-	"modules": [
-		{
-			"name": "super_nonogram",
-			"buildsystem": "simple",
-			"only-arches": [
-				"x86_64"
-			],
-			"build-commands": [
-				"mkdir -p SuperNonogram",
-				"tar -xf SuperNonogram_*.tar.gz -C SuperNonogram",
-
-				"cp -r SuperNonogram /app/",
-				"chmod +x /app/SuperNonogram/super_nonogram",
-				"mkdir -p /app/bin",
-				"mkdir -p /app/lib",
-				"ln -s /app/SuperNonogram/super_nonogram /app/bin/super_nonogram",
-				"ln -s /app/SuperNonogram/lib/* /app/lib/",
-
-				"install -Dm644 com.adilhanney.super_nonogram.metainfo.xml -t /app/share/metainfo/",
-		
-				"install -Dm644 icon-16x16.png /app/share/icons/hicolor/16x16/apps/com.adilhanney.super_nonogram.png",
-				"install -Dm644 icon-24x24.png /app/share/icons/hicolor/24x24/apps/com.adilhanney.super_nonogram.png",
-				"install -Dm644 icon-32x32.png /app/share/icons/hicolor/32x32/apps/com.adilhanney.super_nonogram.png",
-				"install -Dm644 icon-48x48.png /app/share/icons/hicolor/48x48/apps/com.adilhanney.super_nonogram.png",
-				"install -Dm644 icon-64x64.png /app/share/icons/hicolor/64x64/apps/com.adilhanney.super_nonogram.png",
-				"install -Dm644 icon-128x128.png /app/share/icons/hicolor/128x128/apps/com.adilhanney.super_nonogram.png",
-				"install -Dm644 icon-256x256.png /app/share/icons/hicolor/256x256/apps/com.adilhanney.super_nonogram.png",
-				"install -Dm644 icon-512x512.png /app/share/icons/hicolor/512x512/apps/com.adilhanney.super_nonogram.png",
-	
-				"install -Dm644 com.adilhanney.super_nonogram.desktop -t /app/share/applications/"
-			],
-			"sources": [
-				{
-					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.6/flatpak/com.adilhanney.super_nonogram.metainfo.xml", "sha256": "fc4672cf007f11b7266ab59e66fa35bd0e3306c9bb785eff8fd0d6bfe88c2249"
-				},
-				{
-					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/flatpak/com.adilhanney.super_nonogram.desktop",
-					"sha256": "7c3dbbcfd3c37e25ab5502831a45854e661b85ca51086643846e6c9e9aba8b44"
-				},
-				{
-					"type": "file",
-					"url": "https://github.com/adil192/super_nonogram/releases/download/v0.7.6/SuperNonogram_v0.7.6.tar.gz", "sha256": "576d287cafb4e0a227b5e9b3b782eb2c24dd8a17852a93cddba90d67ff8d6879"
-				},
-				{
-					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-16x16.png",
-					"sha256": "64c7dfb4cb2421fc215b15b2eacc3a2c97a229e333b83f5d7fc9f9ec4166989c"
-				},
-				{
-					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-24x24.png",
-					"sha256": "502e9b6f385f25e56af1fef2df690f0376e960d91b6670e59ff926cd337c25fb"
-				},
-				{
-					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-32x32.png",
-					"sha256": "30820b89a218f7014b3c9c414920b12fdf2cb58e22e687bdd36fdf992a0a18d6"
-				},
-				{
-					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-48x48.png",
-					"sha256": "4eb2e3b8641db5c4aae7ce56185448c6b3f4ffc811ca9f47fd2827e4e68f5d65"
-				},
-				{
-					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-64x64.png",
-					"sha256": "95085df2c7f0a69d00b630564031df06cb701bb9a41bebce3ffa943bf5c66fe6"
-				},
-				{
-					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-128x128.png",
-					"sha256": "a5dff02c21025367f244d052fcbdcb89178c088c31fe654118bb0788a0afa577"
-				},
-				{
-					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-256x256.png",
-					"sha256": "cb838dd1b47e19cf380f39a62ebba64263a6ae338eee34c405541124ca1a84fb"
-				},
-				{
-					"type": "file",
-					"url": "https://raw.githubusercontent.com/adil192/super_nonogram/v0.7.1/assets/icon/resized/icon-512x512.png",
-					"sha256": "58e84626d5fd126ff7546ea32e72e87aca86bf6b053b6fb3a36adeca805f9e16"
-				}
-			]
-		}
-	]
+    "app-id": "com.adilhanney.super_nonogram",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "22.08",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "super_nonogram",
+    "separate-locales": false,
+    "finish-args": [
+        "--share=network",
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--device=dri",
+        "--socket=pulseaudio"
+    ],
+    "modules": [
+        {
+            "name": "super_nonogram",
+            "buildsystem": "simple",
+            "build-commands": [
+                "mkdir -p /app",
+                "tar -xf SuperNonogram_*.tar.gz -C /app",
+                "mkdir -p /app/bin",
+                "ln -s /app/super_nonogram /app/bin/super_nonogram"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://github.com/adil192/super_nonogram/releases/download/v0.7.7/SuperNonogram_v0.7.7_Linux_x86_64.tar.gz",
+                    "sha256": "b69a1b2d3596500a403e0874a96d27bfd466cbcfa46ce87e23fffadaf28a5c25",
+                    "only-arches": [
+                        "x86_64"
+                    ],
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/adil192/super_nonogram/releases/latest",
+                        "version-query": ".tag_name",
+                        "url-query": ".assets[] | select(.name==\"SuperNonogram_\" + $version + \"_Linux_x86_64.tar.gz\") | .browser_download_url",
+                        "is-main-source": false
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://github.com/adil192/super_nonogram/releases/download/v0.7.7/SuperNonogram_v0.7.7_Linux_arm64.tar.gz",
+                    "sha256": "d4e989858b79b1f8002921ed9aa3f9afdb48abe3cbfc2b28f15415f9e88d7bcd",
+                    "only-arches": [
+                        "aarch64"
+                    ],
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/adil192/super_nonogram/releases/latest",
+                        "version-query": ".tag_name",
+                        "url-query": ".assets[] | select(.name==\"SuperNonogram_\" + $version + \"_Linux_arm64.tar.gz\") | .browser_download_url",
+                        "is-main-source": true
+                    }
+                }
+            ]
+        }
+    ]
 }
