@@ -1,60 +1,60 @@
 {
-	"app-id": "com.adilhanney.super_nonogram",
-	"runtime": "org.freedesktop.Platform",
-	"runtime-version": "22.08",
-	"sdk": "org.freedesktop.Sdk",
-	"command": "super_nonogram",
-	"separate-locales": false,
-	"finish-args": [
-		"--share=network",
-		"--share=ipc",
-		"--socket=fallback-x11",
-		"--socket=wayland",
-		"--device=dri",
-		"--socket=pulseaudio"
-	],
-	"modules": [
-		{
-			"name": "super_nonogram",
-			"buildsystem": "simple",
-			"build-commands": [
-				"mkdir -p /app",
-				"tar -xf SuperNonogram_*.tar.gz -C /app",
-				"mkdir -p /app/bin",
-				"ln -s /app/super_nonogram /app/bin/super_nonogram"
-			],
-			"sources": [
-				{
-					"type": "file",
-					"url": "https://github.com/adil192/super_nonogram/releases/download/v0.7.6/SuperNonogram_v0.7.6_Linux_x86_64.tar.gz",
-					"sha256": "4c86340c29dbe381f30930db9b8d0bfc9042d1c2d88e5408b25c683ccd595715",
-					"only-arches": [
-						"x86_64"
-					],
-					"x-checker-data": {
-						"type": "json",
-						"url": "https://api.github.com/repos/adil192/super_nonogram/releases/latest",
-						"version-query": ".tag_name",
-						"url-query": ".assets[] | select(.name==\"SuperNonogram_\" + $version + \"_Linux_x86_64.tar.gz\") | .browser_download_url",
-						"is-main-source": false
-					}
-				},
-				{
-					"type": "file",
-					"url": "https://github.com/adil192/super_nonogram/releases/download/v0.7.6/SuperNonogram_v0.7.6_Linux_arm64.tar.gz",
-					"sha256": "99243a5e8a2d722c8efb0a85c994951ba47cf9b899c55e607bc5e316707f2cfb",
-					"only-arches": [
-						"aarch64"
-					],
-					"x-checker-data": {
-						"type": "json",
-						"url": "https://api.github.com/repos/adil192/super_nonogram/releases/latest",
-						"version-query": ".tag_name",
-						"url-query": ".assets[] | select(.name==\"SuperNonogram_\" + $version + \"_Linux_arm64.tar.gz\") | .browser_download_url",
-						"is-main-source": true
-					}
-				}
-			]
-		}
-	]
+    "app-id": "com.adilhanney.super_nonogram",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "22.08",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "super_nonogram",
+    "separate-locales": false,
+    "finish-args": [
+        "--share=network",
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--device=dri",
+        "--socket=pulseaudio"
+    ],
+    "modules": [
+        {
+            "name": "super_nonogram",
+            "buildsystem": "simple",
+            "build-commands": [
+                "mkdir -p /app",
+                "tar -xf SuperNonogram_*.tar.gz -C /app",
+                "mkdir -p /app/bin",
+                "ln -s /app/super_nonogram /app/bin/super_nonogram"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://github.com/adil192/super_nonogram/releases/download/v0.7.7/SuperNonogram_v0.7.7_Linux_x86_64.tar.gz",
+                    "sha256": "b69a1b2d3596500a403e0874a96d27bfd466cbcfa46ce87e23fffadaf28a5c25",
+                    "only-arches": [
+                        "x86_64"
+                    ],
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/adil192/super_nonogram/releases/latest",
+                        "version-query": ".tag_name",
+                        "url-query": ".assets[] | select(.name==\"SuperNonogram_\" + $version + \"_Linux_x86_64.tar.gz\") | .browser_download_url",
+                        "is-main-source": false
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://github.com/adil192/super_nonogram/releases/download/v0.7.7/SuperNonogram_v0.7.7_Linux_arm64.tar.gz",
+                    "sha256": "d4e989858b79b1f8002921ed9aa3f9afdb48abe3cbfc2b28f15415f9e88d7bcd",
+                    "only-arches": [
+                        "aarch64"
+                    ],
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/adil192/super_nonogram/releases/latest",
+                        "version-query": ".tag_name",
+                        "url-query": ".assets[] | select(.name==\"SuperNonogram_\" + $version + \"_Linux_arm64.tar.gz\") | .browser_download_url",
+                        "is-main-source": true
+                    }
+                }
+            ]
+        }
+    ]
 }
