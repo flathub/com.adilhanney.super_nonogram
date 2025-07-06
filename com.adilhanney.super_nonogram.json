@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://github.com/adil192/super_nonogram/releases/download/v0.7.8/SuperNonogram_v0.7.8_Linux_x86_64.tar.gz",
-                    "sha256": "a3605a1f3ccf77f5692949af8fa0a8ec9366d0060ceb041e641e0c3ea827254e",
+                    "url": "https://github.com/adil192/super_nonogram/releases/download/v0.7.9/SuperNonogram_v0.7.9_Linux_x86_64.tar.gz",
+                    "sha256": "f6a72c1a17aadfc288417ab0a309c0d244a62002a6028a00595b40af3ec7af4a",
                     "only-arches": [
                         "x86_64"
                     ],
@@ -41,8 +41,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://github.com/adil192/super_nonogram/releases/download/v0.7.8/SuperNonogram_v0.7.8_Linux_arm64.tar.gz",
-                    "sha256": "85cce6e93ffc43e6d54669b03b1d2525e3f4693b758c220618c9603f3054f3a2",
+                    "url": "https://github.com/adil192/super_nonogram/releases/download/v0.7.9/SuperNonogram_v0.7.9_Linux_arm64.tar.gz",
+                    "sha256": "a2530844c266c0e59a4986bfb4867c9bf3e8b404fed17ef66bd3953ee7ffa826",
                     "only-arches": [
                         "aarch64"
                     ],
