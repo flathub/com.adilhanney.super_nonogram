@@ -39,8 +39,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/adil192/super_nonogram.git
-        tag: v0.12.1
-        commit: 1c9cdb1f35b628ac346957180084d8e28afed7ad
+        tag: v0.13.0
+        commit: d07b87594f94d0edf71f9b9d3d8136530bc8f338
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+(?:\+.*)?)$
